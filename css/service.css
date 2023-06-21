@@ -1,0 +1,112 @@
+.service h1 {
+  position: absolute;
+  left: 309px;
+  width: 432px;
+  height: 57px;
+  /* padding-bottom: 15px; */
+  font-family: var(--font);
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+.service p {
+  position: absolute;
+  left: 269px;
+  top: 60px;
+  width: 511px;
+  height: 40px;
+  /* paragraph */
+
+font-family:var(--font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+}
+.service-lists {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  right: 20px;
+}
+.service-left {
+  width: 597px;
+  height: 442px;
+  background-image: url(../images/media\ bg-cover.svg);
+}
+.service-left button {
+  position: absolute;
+  top: 206px;
+  left: 268px;
+  width: 94px;
+  height: 96px;
+  background-color: var(--secondary-color);
+  border-radius: 73px;
+  border-color:var(--secondary-color);
+}
+.service-right {
+  position:absolute;
+  left: 718px;
+   top: 0;
+  
+}
+.service-right h2 {
+  
+
+  width: 333px;
+  height: 114px;
+  padding-bottom: 15px;
+  font-family: var(--secondary-color);
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+.service-right p {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 330px;
+  height: 60px;
+  font-family: var(--secondary-color);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
+.card-items {
+  position: absolute;
+  top: 250px;
+}

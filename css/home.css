@@ -1,0 +1,161 @@
+.home {
+  position: relative;
+  height: 610px;
+  width:1060px ;
+  background-position: right;
+  background-image: url(../images/cover.svg);
+  background-size: cover;
+   padding-left: var(--padding-left);
+}
+
+.home-left h1 {
+  position: absolute;
+  top: 104px;
+  width: 509px;
+  height: 160px;
+ 
+ 
+  
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+  
+  letter-spacing: 0.2px;
+  
+  /* text-color */
+  
+  color: #252B42;
+  
+  
+}
+.home-left p{
+ position: absolute;
+ top: 299px;
+  font-family: var(--font);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+width: 376px;
+height: 66px;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.home-btn {
+ position: absolute;
+ top: 394px;
+ 
+}
+.home-btn button {
+  
+  height: 48px;
+  padding: 10px 36px;
+  font-family:var(--font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.2px;
+color: var(--secondary-color);
+border: 1px solid var(--secondary-color);
+border-radius: 20px;
+}
+.home-btn button:hover {
+  color: white;
+  background-color: var(--primary-color);
+  height: 48px;
+  transition: 0.5s;
+  border: none;
+}
+.box {
+ 
+  position: absolute;
+  top: 522px;
+  left: 20px;
+  border: none;
+
+ 
+}
+.box button {
+  width: 328px;
+  
+}
+.box button img {
+  
+  width: 47px;
+  height: 40px;
+}
+
+.box button h1 {
+  display: flex;
+  width: 260px;
+  height: 32px;
+  font-family: var(--font);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+
+}
+
+
+.box button p {
+  width: 218px;
+  height: 40px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+}
+.box-elements {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 75px 35px 40px;
+}
+.box button:hover {
+  background-color: var(--secondary-color);
+  transition: 0.5s;
+  border: none;
+}
+.box-elements h1:hover {
+  color: white;
+}
+.box-elements p:hover {
+  color: white;
+}
+
+
+ 
+

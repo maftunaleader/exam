@@ -1,0 +1,104 @@
+.advice {
+  position: relative;
+  width: 1060px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.nav-advice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-advice h1 {
+  position: absolute;
+  top: 763px;
+  left: 443px;
+  width: 163px;
+  height: 57px;
+  font-family: var(--font);
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+.nav-advice p {
+  position: absolute;
+  top: 830px;
+  left: 290px;
+  width: 470px;
+  height: 40px;
+  font-family:var(--font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+
+}
+.advice-lists {
+  display: flex;
+  position: absolute;
+  top: 915px;
+  left:20px;
+  gap: 39px;
+}
+.advice-btn {
+  width: 230px;
+  hyphenate-character: 321px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.advice-bnt h2 {
+  width: 130px;
+  height: 48px;
+  padding: 30px 70px 0 29px;
+  font-family:var(--font);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.1px;
+
+color: #252B42;
+
+
+}
+.advice-btn p {
+  width: 160px;
+  height: 60px;
+  font-family:var(--font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 0.2px;
+
+color: #737373;
+
+}
+.advice-btn img {
+  width: 230px;
+  height: 138px;
+}

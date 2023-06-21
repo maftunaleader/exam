@@ -1,0 +1,80 @@
+.about {
+  position: relative;
+  width: 1060px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FAFAFA;
+ 
+}
+.about-lists {
+  position: absolute;
+  top: 192px;
+}
+.about-lists h1 {
+  font-family: var(--font);
+  padding-left: 394px;
+  padding-bottom: 10px;
+  height: 57px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+
+
+}
+.about-lists p {
+  padding-bottom: 50px;
+  padding-left: 289px;
+  width: 711px;
+  /* height: 40px; */
+  font-family: var(--font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+
+
+}
+.about-items {
+  display: flex;
+  position: absolute;
+  top: 349px;
+  gap: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-items button {
+  width: 230px;
+  height: 209px;
+
+}
+.about-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  
+  
+}
+.about-items button:hover {
+  background-color: var(--primary-color
+  );
+  border: none;
+}
+  
